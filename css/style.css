@@ -1,0 +1,193 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background-color: #171717;
+}
+
+.nav-item {
+  margin-right: 24px;
+  font-weight: 200;
+}
+
+.nav-link span {
+  color: #f9b234 !important;
+  font-weight: 600;
+}
+
+/* carousel */
+.carousel {
+  height: 450px;
+  background-color: #171717;
+  color: white;
+}
+
+.carousel H1 {
+  font-family: 'Lora';
+}
+
+.carousel p {
+  font-weight: 200;
+}
+
+.features h3 {
+  font-family: 'Lora';
+  color: #1b2690;
+  font-weight: bold;
+}
+
+.features p {
+  font-weight: 200;
+  color: #b7b7b7;
+}
+
+figcaption h5 {
+  color: #1b2690;
+}
+
+figcaption p {
+  color: #b7b7b7;
+}
+
+.figure-img {
+  position: relative;
+}
+
+.figure-img a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+  opacity: 1;
+}
+
+.designer h3 {
+  font-family: 'Lora';
+  color: #1b2690;
+  font-weight: bold;
+}
+
+.designer p {
+  font-weight: 200;
+  color: #b7b7b7;
+}
+
+/* Breadcrump */
+.breadcrumb {
+  margin-top: 100px;
+}
+
+.product-thumbnail-container {
+  width: 360px;
+  padding: 8px;
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  transform: translateY(-50px);
+}
+
+.product-thumbnail-container:hover {
+  text-decoration: none;
+}
+
+.btn-product {
+  margin: 50px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.btn-product .btn {
+  display: block;
+  margin: 10px 0;
+}
+
+.design-by h5 {
+  font-size: 14px;
+  font-weight: 200;
+  color: #b7b7b7;
+  margin-bottom: 40px;
+}
+
+.design-by h4 {
+  font-size: 18px;
+  color: #171717;
+}
+
+.design-by p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.product-description {
+  background-color: #f6f7fb;
+  height: 350px;
+}
+
+.product-description .tab-content {
+  background-color: #fff;
+}
+
+.product-description .tab-content p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #b6b6b6;
+  line-height: 28px;
+}
+
+.product-review {
+  height: 330px;
+}
+
+.product-review h5 {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.product-review p {
+  font-size: 14px !important;
+}
+
+.similiar-product {
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+
+.similiar-product h3,
+.cart-header h3,
+.modal-body h3 {
+  font-family: 'Lora';
+  color: #1b2690;
+  font-weight: bold;
+}
+
+.similiar-product p,
+.cart-header p,
+.modal-body p {
+  font-weight: 200;
+  color: #b7b7b7;
+}
+
+.cart-breadcrumb {
+  margin-top: 50px;
+}
+
+.checkout-detail {
+  background-color: #f6f7f8;
+  border: 1px solid #eaeaea;
+  color: #171717;
+}
+
+.checkout {
+  margin-bottom: 100px;
+}
